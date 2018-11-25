@@ -43,3 +43,13 @@ Point Point::operator /(double d)
 	Res.y = y/d;
 	return Res;
 }
+
+double distance(Point A, Point B)
+{
+	return sqrt((A.x - B.x) * (A.x - B.x) + (A.y - B.y) * (A.y - B.y));
+}
+
+double angle(Point A, Point B, Point C)
+{
+	return 0; // надо подумать что тут нужно будет выводить вообще
+}
