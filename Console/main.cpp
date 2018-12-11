@@ -1,4 +1,4 @@
-/*#include "conslib.h"
+#include "conslib.h"
 #include "figure.h"
 #include <iostream>
 
@@ -58,7 +58,7 @@ int main()
 	Figure* fig[3] = { &rect, &cekt, &rect1 };
 	
 	move(fig, 3);
-} */
+} /*
 
 #include <SFML/Graphics.hpp>
 
@@ -84,4 +84,4 @@ int main()
 
 	return 0;
 }
-
+*/
